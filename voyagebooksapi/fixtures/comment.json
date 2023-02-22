@@ -1,0 +1,22 @@
+[
+    {
+      "model": "voyagebooksapi.comment",
+      "pk": 1,
+      "fields": {
+        "author": 1,
+        "post_id": 1,
+        "content": "Test comment 1",
+        "created_on": "2023-02-21"
+      }
+    },
+    {
+      "model": "voyagebooksapi.comment",
+      "pk": 2,
+      "fields": {
+        "author": 2,
+        "post_id": 2,
+        "content": "Test comment 2",
+        "created_on": "2023-02-21"
+      }
+    }
+  ]

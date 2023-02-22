@@ -1,0 +1,27 @@
+[
+    {
+      "model": "voyagebooksapi.post",
+      "pk": 1,
+      "fields": {
+        "user": 1,
+        "title": "At the beach",
+        "location": "Tokyo, Japan",
+        "creation_date": "2023-02-21",
+        "photo_url": "",
+        "content": "Me at the beach"
+      }
+    },
+    {
+      "model": "voyagebooksapi.post",
+      "pk": 2,
+      "fields": {
+        "user": 2,
+        "title": "Under the tree",
+        "location": "Toronto, Canada",
+        "creation_date": "2023-02-21",
+        "photo_url": "",
+        "content": "Me under the tree."
+      }
+    }
+
+  ]

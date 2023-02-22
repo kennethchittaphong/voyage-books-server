@@ -1,0 +1,27 @@
+[
+    {
+        "model": "voyagebooksapi.user",
+        "pk": 1,
+        "fields": {
+            "uid": 12345,
+            "first_name": "Kenneth",
+            "last_name": "Chittaphong",
+            "about": "Hello",
+            "profile_image_url": "",
+            "email": "kennethchittaphong@gmail.com"
+        }
+    },
+    {
+        "model": "voyagebooksapi.user",
+        "pk": 2,
+        "fields": {
+            "uid": 23456,
+            "first_name": "Henry",
+            "last_name": "Kim",
+            "about": "Hi",
+            "profile_image_url": "",
+            "email": "henrykimster1@gmail.com"
+        
+        }
+    }
+]
