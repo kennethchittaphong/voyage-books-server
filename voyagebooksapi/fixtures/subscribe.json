@@ -1,0 +1,10 @@
+[
+    {
+      "model": "voyagebooksapi.subscribe",
+      "pk": 1,
+      "fields": {
+        "subscriber": 1,
+        "subscribed": 2
+      }
+    }
+  ]

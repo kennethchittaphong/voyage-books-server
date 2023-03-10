@@ -32,7 +32,7 @@ class CommentView(ViewSet):
       """
       comments = Comment.objects.all()
       
-      post = request.query_params.get('post', None)
+      post = request.query_params.get('postId', None)
       if post is not None:
         comments = comments.filter(post_id=post)
       serializer = CommentSerializer(comments, many=True)
