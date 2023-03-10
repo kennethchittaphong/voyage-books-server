@@ -49,6 +49,8 @@ class UserView(ViewSet):
         user.about = request.data["about"]
         user.profile_image_url = request.data["profile_image_url"]
         user.email = request.data["email"]
+        
+        user.save()
 
         return Response(None, status=status.HTTP_204_NO_CONTENT)
 
