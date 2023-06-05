@@ -1,0 +1,1 @@
+web: gunicorn voyagebooks.wsgi --log-file 
