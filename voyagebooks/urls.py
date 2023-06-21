@@ -19,6 +19,7 @@ from voyagebooksapi.views import check_user, register_user
 from rest_framework import routers
 from django.conf.urls import include
 from voyagebooksapi.views import UserView, PostView, CommentView
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 router = routers.DefaultRouter(trailing_slash=False)
 router.register(r'users', UserView, 'users')
@@ -32,3 +33,5 @@ urlpatterns = [
     path('', include(router.urls)),
     
 ]
+
+urlpatterns += staticfiles_urlpatterns()
