@@ -15,16 +15,16 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from voyagebooksapi.views import check_user, register_user
 from rest_framework import routers
 from django.conf.urls import include
-from voyagebooksapi.views import UserView, PostView, CommentView
-from django.contrib.staticfiles.urls import staticfiles_urlpatterns
+
+from voyagebooksapi.views import check_user, register_user, UserView, PostView, CommentView, SubscribeView
 
 router = routers.DefaultRouter(trailing_slash=False)
 router.register(r'users', UserView, 'users')
 router.register(r'posts', PostView, 'posts')
 router.register(r'comments', CommentView, 'comments')
+router.register(r'subscribes', SubscribeView, 'subscribes')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
