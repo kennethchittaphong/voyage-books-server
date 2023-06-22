@@ -33,5 +33,3 @@ urlpatterns = [
     path('', include(router.urls)),
     
 ]
-
-urlpatterns += staticfiles_urlpatterns()
